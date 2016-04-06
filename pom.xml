@@ -110,4 +110,14 @@
 			<scope>test</scope>
 		</dependency>
 	</dependencies>
+	<issueManagement>
+		<system>GitHub Issues</system>
+		<url>https://github.com/nilsreiter/tree-edit-distance/issues</url>
+	</issueManagement>
+	<scm>
+		<url>https://github.com/nilsreiter/tree-edit-distance</url>
+		<connection>scm:git:git://github.com/nilsreiter/tree-edit-distance.git</connection>
+		<developerConnection>scm:git:git@github.com/nilsreiter/tree-edit-distance.git</developerConnection>
+	</scm>
+	<description>This library is an implementation of Zhang and Shasha's algorithm [Zhang89] for calculating tree edit distance.</description>
 </project>
