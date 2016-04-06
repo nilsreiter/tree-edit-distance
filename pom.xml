@@ -120,4 +120,5 @@
 		<developerConnection>scm:git:git@github.com/nilsreiter/tree-edit-distance.git</developerConnection>
 	</scm>
 	<description>This library is an implementation of Zhang and Shasha's algorithm [Zhang89] for calculating tree edit distance.</description>
+	<url>https://github.com/nilsreiter/tree-edit-distance</url>
 </project>
