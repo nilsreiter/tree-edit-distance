@@ -1,3 +1,6 @@
+.. image:: https://travis-ci.org/nilsreiter/tree-edit-distance.svg?branch=master
+    :target: https://travis-ci.org/nilsreiter/tree-edit-distance
+
 Tree Edit Distance Library
 ==========================
 
