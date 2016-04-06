@@ -28,6 +28,19 @@ Example
 
 See test programs for more information.
 
+Download
+--------
+
+Include via maven:
+::
+
+  <dependency>
+     <groupId>de.unistuttgart.ims</groupId>
+     <artifactId>tree-edit-distance</artifactId>
+     <version>0.0.1</version>
+  </dependency>
+
+
 License
 -------
 
