@@ -5,8 +5,6 @@
   <version>0.0.1-SNAPSHOT</version>
   <name>tree-edit-distance</name>
   <build>
-    <sourceDirectory>src</sourceDirectory>
-    <testSourceDirectory>test</testSourceDirectory>
     <plugins>
       <plugin>
         <artifactId>maven-compiler-plugin</artifactId>
