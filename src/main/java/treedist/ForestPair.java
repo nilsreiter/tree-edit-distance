@@ -5,11 +5,9 @@ public class ForestPair {
 
 	/**
 	 * Make a new forest pair.
-	 * 
+	 *
 	 * Null is acceptable.
-	 * 
-	 * @param forest1
-	 * @param forest2
+	 *
 	 */
 	public ForestPair(Forest forest1, Forest forest2) {
 		this.forest1 = forest1;
@@ -18,8 +16,8 @@ public class ForestPair {
 
 	@Override
 	public int hashCode() {
-		int h1 = this.forest1 == null ? 0 : this.forest1.hashCode();
-		int h2 = this.forest2 == null ? 0 : this.forest2.hashCode();
+		final int h1 = forest1 == null ? 0 : forest1.hashCode();
+		final int h2 = forest2 == null ? 0 : forest2.hashCode();
 		return Integer.rotateLeft(h1, 8) ^ h2;
 	}
 
@@ -35,14 +33,13 @@ public class ForestPair {
 	}
 
 	public boolean equals(ForestPair pair) {
-		return optionalForestEquqlas(this.forest1, pair.forest1)
-				&& optionalForestEquqlas(this.forest2, pair.forest2);
+		return optionalForestEquqlas(forest1, pair.forest1) && optionalForestEquqlas(forest2, pair.forest2);
 	}
 
 	private static boolean optionalForestEquqlas(Forest f1, Forest f2) {
-		if (f1 == null && f2 == null) {
+		if ((f1 == null) && (f2 == null)) {
 			return true;
-		} else if (f1 == null || f2 == null) {
+		} else if ((f1 == null) || (f2 == null)) {
 			return false;
 		} else {
 			return f1.equals(f2);
